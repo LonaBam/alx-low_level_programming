@@ -7,5 +7,9 @@
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	fwrite(str, 1, sizeof(str), stderr);
+
+	return (0);
 }
