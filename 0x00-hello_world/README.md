@@ -6,3 +6,4 @@
 5-printf.c - This C program prints a string using the printf function
 6-size.c - This script prints the size of various types on the computer itis compiled and run on
 100-intel - This script generates the assembly code of a C code
+101-quote.c - This program prints a string to the standard error
