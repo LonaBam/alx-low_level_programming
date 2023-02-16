@@ -3,3 +3,4 @@
 2-assembler - This script generates the assembly code of a C code and saves it in an putput file
 3-name - This script compiles a C file and creates an executable named cisfun
 4-puts.c - This C program prints a string
+5-printf.c - This C program prints a string using the printf function
