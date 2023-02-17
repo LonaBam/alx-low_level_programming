@@ -9,7 +9,9 @@
  */
 int main(void)
 {
-	int putchar(int a);
+	int a;
+
+	a = putchar();
 
 	while (a != EOF)
 	{
