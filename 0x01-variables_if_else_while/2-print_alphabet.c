@@ -15,8 +15,8 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		printf("%c", letter);
 		putchar(letter);
+		letter++
 	}
 
 	return (0);
