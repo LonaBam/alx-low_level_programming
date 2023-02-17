@@ -17,7 +17,6 @@ int main(void)
 	{
 		printf("%c", letter);
 		putchar(letter);
-		letter++;
 	}
 
 	return (0);
