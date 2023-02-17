@@ -1,14 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main: Entry point
- *
- * Description: Prints a random number and prints whether it is negative or
- * positive
- *
- * Return: Always 0 (Success)
- */
+
+/* Prints whether a random number is negative or positive */
 int main(void)
 {
 	int n;
