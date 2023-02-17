@@ -9,14 +9,15 @@
  */
 int main(void)
 {
-	int a;
+	char letter;
 
-	a = putchar();
+	letter = 'a';
 
-	while (a != EOF)
+	while (letter <= 'z')
 	{
-		printf("%c", a);
-		a = putchar();
+		printf("%c", letter);
+		putchar(letter);
+		letter++;
 	}
 
 	return (0);
