@@ -2,7 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/* Prints whether a random number is negative or positive */
+/**
+ * main: Entry point
+ *
+ * Description: Prints whether a random number is negative or positive 
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
