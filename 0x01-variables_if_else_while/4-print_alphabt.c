@@ -13,7 +13,7 @@ int main(void)
 
 	letter = 'a';
 
-	while (letter <= 'z' && letter != 'e' && letter != 'q')
+	while (letter <= 'z' && letter != 'e' || letter != 'q')
 	{
 		putchar(letter);
 		letter = letter + 1;
