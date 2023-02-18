@@ -16,7 +16,8 @@ int main(void)
 	while (letter <= 'z')
 	{
 		if (letter != 'q' && letter != 'e')
-		{	putchar(letter);
+		{	
+			putchar(letter);
 			letter = letter + 1;
 		}
 	}
