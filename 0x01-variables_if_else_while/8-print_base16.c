@@ -11,14 +11,12 @@ int main(void)
 {
 	char b16;
 
-	b16 = hex[i];
+	b16 = '0'
 
-	int i = 0
-
-	while (b16 <= hex[16])
+	while (b16 <= 'f')
 	{
 		putchar(b16);
-		b16 = hex[i + 1];
+		b16 = b16 + 1;
 	}
 
 	putchar('\n');
