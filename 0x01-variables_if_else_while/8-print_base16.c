@@ -15,7 +15,7 @@ int main(void)
 
 	int i = 0
 
-	while (b16 <= hex[10])
+	while (b16 <= hex[16])
 	{
 		putchar(b16);
 		b16 = hex[i + 1];
