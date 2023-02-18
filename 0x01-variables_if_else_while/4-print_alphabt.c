@@ -19,8 +19,10 @@ int main(void)
 		{
 			letter = letter + 1;
 		} else
+		{
 			putchar(letter);
 			letter = letter + 1;
+		}
 	}
 
 	putchar('\n');
