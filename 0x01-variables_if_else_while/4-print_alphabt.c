@@ -18,11 +18,10 @@ int main(void)
 		if (letter == 'e' || 'q')
 		{
 			letter = letter + 1;
-		} else
-		{
-			putchar(letter);
-			letter = letter + 1;
 		}
+
+		putchar(letter);
+		letter = letter + 1;
 	}
 
 	putchar('\n');
