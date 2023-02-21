@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int print_putchar(void)
+int main(void)
 {
 	puts("_putchar");
 
