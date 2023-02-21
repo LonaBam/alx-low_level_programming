@@ -10,9 +10,7 @@
  */
 int main(void)
 {
-	int ptc = "_putchar";
-
-	putchar(ptc);
+	puts("_putchar");
 	putchar("\n");
 
 	return (0);
