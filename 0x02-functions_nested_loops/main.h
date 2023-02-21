@@ -11,7 +11,7 @@
 int main(void)
 {
 	puts("_putchar");
-	putchar("\n");
+	putchar(char* "\n");
 
 	return (0);
 }
