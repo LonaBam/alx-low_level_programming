@@ -12,7 +12,7 @@ int main(void)
 {
 	char* ptc = "_putchar";
 
-	putchar(int ptc);
+	putchar(ptc);
 	putchar("\n");
 
 	return (0);
