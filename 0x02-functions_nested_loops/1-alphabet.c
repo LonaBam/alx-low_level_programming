@@ -5,3 +5,4 @@
  * in lowercase
  *
  */
+print_alphabet();
