@@ -5,7 +5,3 @@
  * in lowercase
  *
  */
-int main(void)
-{
-	print_alphabet();
-}
