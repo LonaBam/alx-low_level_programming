@@ -14,3 +14,27 @@ int main(void)
 
 	return (0);
 }
+
+/**
+ * print_alphabet - Prints the alphabet
+ * in lowercase
+ *
+ * Return: No value
+ */
+void print_alphabet(void)
+{
+	int letter;
+
+	letter = 'a';
+
+	while (letter < 'z')
+	{
+		putchar(letter);
+
+		letter++;
+	}
+
+	putchar('\n');
+
+	return;
+}
