@@ -5,4 +5,4 @@
  * in lowercase
  *
  */
-static void print_alphabet();
+static inline void print_alphabet();
