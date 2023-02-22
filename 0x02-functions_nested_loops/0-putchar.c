@@ -8,4 +8,3 @@
  *
  * Return: Always 0
  */
-int first();
