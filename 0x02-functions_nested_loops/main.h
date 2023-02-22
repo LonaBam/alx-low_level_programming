@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int print_puts(void)
 {
 	puts("_putchar");
 
