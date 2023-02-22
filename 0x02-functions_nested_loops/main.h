@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+static inline int main(void)
 {
 	int let;
 	
