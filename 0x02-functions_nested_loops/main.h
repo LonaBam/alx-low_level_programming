@@ -1,12 +1,38 @@
 #include <stdio.h>
 
-int print_puts(void)
+static inline int print_putchar(void)
 {
-	puts("_putchar");
+	int let;
+	
+	let = '_';
+	putchar(let);
+
+	let = 'p';
+	putchar(let);
+
+	let = 'u';
+	putchar(let);
+
+	let = 't';
+	putchar(let);
+
+	let = 'c';
+	putchar(let);
+
+	let = 'h';
+	putchar(let);
+
+	let = 'a';
+	putchar(let);
+
+	let = 'r';
+	putchar(let);
+
+	putchar('\n');
 
 	return (0);
 }
-void print_alphabet(void)
+static inline void print_alphabet(void)
 {
 	int letter;
 
