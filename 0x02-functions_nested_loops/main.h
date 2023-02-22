@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static inline int print_putchar(void)
+int main(void)
 {
 	int let;
 	

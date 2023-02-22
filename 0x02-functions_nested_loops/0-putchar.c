@@ -5,4 +5,3 @@
  * using putchar
  *
  */
-int print_putchar();
