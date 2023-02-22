@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static inline int main(void)
+int main(void)
 {
 	int let;
 	
@@ -32,7 +32,7 @@ static inline int main(void)
 
 	return (0);
 }
-static inline void print_alphabet(void)
+static void print_alphabet(void)
 {
 	int letter;
 
